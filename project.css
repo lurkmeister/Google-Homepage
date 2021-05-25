@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+}
+
+#body {
+    height: 98%;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#header {
+    height: 48px;
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.link {
+    padding-left: 20px;
+}
+
+.pic {
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#img1 {
+    padding: 12px;
+}
+
+#img2 {
+    padding: 4px;
+}
+
+#Google {
+    margin-left: 200px;
+}
+
+#input-bar-space {
+    width: 584px;
+    height: 44px;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 44px;
+    justify-content: center;
+}
+
+input {
+    width: 510px;
+    height: 40px;
+    border: none;
+}
+
+.img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.input-img {
+    margin-top: 7px;
+}
+
+#buttonspace {
+    width: 300px;
+    display: flex;
+    margin-left: 188px;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid #dadce0;
+    background-color: #f8f8f8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+li {
+    font-size: 14px;
+    padding: 0 20px;
+    color: #70757a;
+}
+
+.button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 2px rgba(0,0,0,0.1);
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.pic:hover {
+    background-color: #dadce0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#input-bar-space:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 0 2px rgba(0,0,0,0.1);
+}
